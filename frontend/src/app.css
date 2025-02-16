@@ -1,0 +1,82 @@
+
+.result {
+    height: 20px;
+    line-height: 20px;
+    margin: 1.5rem auto;
+}
+
+.input-box .btn {
+    width: 60px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 3px;
+    border: none;
+    margin: 0 0 0 20px;
+    padding: 0 8px;
+    cursor: pointer;
+}
+
+.input-box .btn:hover {
+    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+    color: #333333;
+}
+
+.input-box .input {
+    border: none;
+    border-radius: 3px;
+    outline: none;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 10px;
+    background-color: rgba(240, 240, 240, 1);
+    -webkit-font-smoothing: antialiased;
+}
+
+.input-box .input:hover {
+    border: none;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.input-box .input:focus {
+    border: none;
+    background-color: rgba(255, 255, 255, 1);
+}
+.list-item{
+    list-style-type:none;
+}
+.delete-bn{
+    background: url(./assets/images/garbage-bin-10420.png) no-repeat center;
+    border: none;
+    width: 24px;
+    height: 24px;
+    background-size: contain;
+}
+.done{
+    text-decoration: line-through;
+    opacity: 0.8;
+}
+.btn{
+    color: white;
+    background-color: rgb(83, 150, 220);
+}
+.Pop-up{
+    visibility: hidden;
+    background-color: red;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+.Pop-up.show{
+    visibility: visible;
+    animation: fadeInOut 2s ease-in-out;
+}
+@keyframes fadeInOut{
+    0% {opacity: 0;}
+    20% {opacity: 1;}
+    80% {opacity: 1;}
+    100% {opacity: 0;}
+
+}
+.conf{
+    display: none;
+}

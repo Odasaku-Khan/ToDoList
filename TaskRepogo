@@ -1,0 +1,6 @@
+type TaskRepo interface {
+	GetTasks() ([]Tusk, error)
+	AddTask(task Tusk) error
+	DeleteTask(id int) error
+	ToggleTask(id int) error
+}
